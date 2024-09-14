@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" 
+rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mech Mentor</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <!-- content of header goes here -->
+        <h1 id="logo">MechMentor</h1>
+        <nav>
+            <ul id="nav-ul">
+                <li><a href="" class="navbutton">Home</a></li>
+                <li><a href="" class="navbutton">Modules</a></li>
+                <li><a href="" class="navbutton">My Account</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="main-content">
+            <aside>
+                <section>
+                    <h4>Meet our friends!</h4>
+                    <nav>
+                        <ul id="main-content-ul">
+                            <li><a href="http://www.imeche.org/">IMechE: Institution of Mechanical Engineers</a></li>
+                            <li><a href="https://www.engc.org.uk/">Engineering Council</a></li>
+                            <li><a href="https://raeng.org.uk/">Royal Academy of Engineering</a></li>
+                            <li><a href="https://www.brightnetwork.co.uk/">Bright Network</a></li>
+                            <li><a href="">AeroMentor</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section>
+                    <h4>Filter by Module</h4>
+                    <nav>
+                        <ul id="main-content-ul">
+                            <li><a href="">Solid Mechanics</a></li>
+                            <li><a href="">Fluid Mechanics</a></li>
+                            <li><a href="">Thermodynamics</a></li>
+                            <li><a href="">Heat Transfer</a></li>
+                            <li><a href="">Materials</a></li>
+                            <li><a href="">Sustainability</a></li>
+                            <li><a href="">Engineering Design</a></li>
+                            <li><a href="">Control Systems</a></li>
+                            <li><a href="">Numerical Methods</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </aside>
+
+            <div>
+                <article>
+                    <header>
+                        <!--Article's header goes here-->
+                        <h2>Want to master the world of mechanical engineering?</h2>
+                        <h3>This website will be your best friend!</h3>
+                    </header>
+                    <main>
+                        <p>At MechMentor, we are dedicated to helping aspiring mechanical engineers achieve their goals by providing comprehensive learning resources. Whether you are just starting your journey or looking to enhance your skills, our platform offers a wide range of tutorials, videos, and interactive courses tailored to your needs. From fundamental concepts to advanced engineering techniques, MechMentor is designed to guide you every step of the way, ensuring you have the knowledge and confidence to excel in the field of mechanical engineering.</p>
+                        <blockquote>
+                            <cite>Just curious? Need a better grade? Forgotten key concepts? Teaching others? Fancy a career
+                                change? Study this website. - Bright Network, 2024</cite>
+                        </blockquote>
+                        <p>Our modules cover various aspects of mechanical engineering, including thermodynamics mechanics, design and materials science. Each course is developed by experienced professionals who are passionate about making complex topics understandable and accessible. We also provide hands-on projects and real-world case studies to ensure practical learning, helping you bridge the gap between theory and practice. Whether you're preparing for exams, seeking professional development, or simply curious to learn more, MechMentor has the right resources for you.
+                        </p>
+                        <p>By joining MechMentor, you become part of a vibrant community of learners and professionals. Engage with fellow engineers through discussion forums, ask questions, share insights, and collaborate on projects. Our mission is to foster a supportive environment where knowledge is shared and ideas flourish. With regular updates, expert advice, and a growing library of content, MechMentor is your go-to platform for all things mechanical engineering. Start your journey today and take the first step toward becoming a successful mechanical engineer.</p>
+                    </main>
+                    <footer>
+                        <h2>Have a look at some of our partner products to supplement your learning</h2>
+                        <li><a href="https://www.wiley.com/en-gb/Mechanical+Engineers'+Handbook%2C+4+Volume+Set%2C+4th+Edition-p-9781118118993"><img src="textbook.jpeg" alt="Picture of textbooks"></a></li>
+                        <h3>Become a MechEngineer today for 10% off!</h3>
+                        <a id="LinkedIn" href="https://www.linkedin.com/in/shakhawathassankhan/" target="_blank">Meet the first MechMentor</a>
+                    </footer>
+                </article>
+            </div>
+        <!-- main content of website goes here -->
+        </div>
+    </main>
+
+    <hr>
+    <h2>Become a MechEngineer!</h2>
+    <form action="" method="">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required>
+        <br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+        <br>
+
+        <label for="status">Status:</label>
+        <input type="radio" name="status" id="student" value="student">
+        <label for="student">Student</label>
+        <input type="radio" name="status" id="graduate" value="graduate">
+        <label for="graduate">Graduate</label>
+        <input type="radio" name="status" id="teacher" value="teacher">
+        <label for="teacher">Teacher</label>
+        <input type="radio" name="status" id="other" value="other">
+        <label for="other">Other</label>
+        <br>
+
+        <label for="university">University:</label>
+        <input type="text" id="university" name="university">
+        <br>
+
+        <label for="degree">Degree:</label>
+        <input type="text" id="degree" name="degree">
+        <br>
+
+        <label for="region">Region:</label>
+        <select name="region" id="region">
+            <option value="please_select">Please select</option>
+            <option value="europe">Europe</option>
+            <option value="north_america">North America</option>
+            <option value="south_america">South America</option>
+            <option value="asia">Asia</option>
+            <option value="africa">Africa</option>
+            <option value="middle_east">Middle East</option>
+            <option value="australia">Australia</option>
+        </select>
+        <br>
+
+        <label for="bio">Biography</label>
+        <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+        <br>
+
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe to our newsletter!</label>
+        <br>
+
+        <input type="submit" value="Send!">
+
+    </form>
+    <hr>
+
+    <footer>
+        <!-- footer goes here -->
+        <h2>MechMentor</h2>
+        <section>
+            <nav>
+                <ul id="footer-ul">
+                    <div>
+                        <li><a href="" class="navbuttonfooter">Home</a></li>
+                        <li><a href="" class="navbuttonfooter">Partners</a></li>
+                        <li><a href="" class="navbuttonfooter">Contact</a></li>
+                        <li><a href="" class="navbuttonfooter">Careers</a></li>
+                    </div>
+                    <div>
+                        <li><a href="" class="navbuttonfooter">Privacy Policy</a></li>
+                        <li><a href="" class="navbuttonfooter">Terms & Conditions</a></li>
+                        <li><a href="" class="navbuttonfooter">Cookie Policy</a></li>
+                        <br>
+                    </div>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+</body>
+
+</html>
